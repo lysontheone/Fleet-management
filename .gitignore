@@ -1,0 +1,32 @@
+# Node
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+npm-debug.log*
+
+# Expo
+.expo/
+.expo-shared/
+
+# Build outputs
+dist/
+build/
+*.apk
+*.ipa
+
+# Logs
+*.log
+*.gz
+
+# macOS
+.DS_Store
+
+# Runtime
+.env
+*.env
+
+# JetBrains
+.idea/
+
+# VS Code
+.vscode/
