@@ -39,6 +39,23 @@ cd C:\Users\Lyson\bulp-fleet-manager\mobile
 eas build --platform ios --profile preview --clear-cache
 ```
 
+## Run on Windows
+
+The project now includes React Native Windows support.
+
+Requirements:
+- Windows 10 or later
+- Visual Studio 2022 with the "Desktop development with C++" workload and the Windows 10/11 SDK
+- Node.js and npm
+
+```powershell
+cd C:\Users\Lyson\bulp-fleet-manager\mobile
+npm install
+npx react-native run-windows
+```
+
+If the command is slow on first run, it is downloading and building native dependencies.
+
 ## Expo app settings
 
 The Expo configuration lives in `app.json`.
